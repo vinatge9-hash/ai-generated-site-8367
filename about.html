@@ -1,0 +1,37 @@
+<!-- {{font: Roboto}} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-roboto bg-gray-100">
+    <header class="bg-red-600 text-white p-4">
+        <h1 class="text-3xl">About Us</h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#" onclick="window.parent.handlePreviewNavigation(\'index.html\'); return false;" class="hover:underline">Home</a></li>
+                <li><a href="#" onclick="window.parent.handlePreviewNavigation(\'about.html\'); return false;" class="hover:underline">About Us</a></li>
+                <li><a href="#" onclick="window.parent.handlePreviewNavigation(\'contact.html\'); return false;" class="hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="p-4">
+        <section class="my-8">
+            <h2 class="text-2xl font-bold">Our Story</h2>
+            <p class="mt-2">Founded in 2020, our restaurant has been serving delicious meals made with love and quality ingredients.</p>
+            <img src="{{image: the exterior of a charming restaurant with flowers}}" alt="Restaurant Exterior" class="mt-4 rounded-lg w-full h-64 object-cover">
+        </section>
+        <section class="my-8">
+            <h2 class="text-2xl font-bold">Our Mission</h2>
+            <p class="mt-2">To provide an exceptional dining experience while supporting local farmers and community.</p>
+        </section>
+    </main>
+    <footer class="bg-red-600 text-white p-4 text-center">
+        <p>&copy; 2023 Our Restaurant. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
