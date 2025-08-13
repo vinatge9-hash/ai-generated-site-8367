@@ -1,0 +1,37 @@
+<!-- {{font: Roboto}} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Restaurant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-roboto bg-gray-100">
+    <header class="bg-red-600 text-white p-4">
+        <h1 class="text-3xl">Contact Us</h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#" onclick="window.parent.handlePreviewNavigation(\'index.html\'); return false;" class="hover:underline">Home</a></li>
+                <li><a href="#" onclick="window.parent.handlePreviewNavigation(\'about.html\'); return false;" class="hover:underline">About Us</a></li>
+                <li><a href="#" onclick="window.parent.handlePreviewNavigation(\'contact.html\'); return false;" class="hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="p-4">
+        <section class="my-8">
+            <h2 class="text-2xl font-bold">Get in Touch</h2>
+            <form class="mt-4 space-y-4">
+                <input type="text" placeholder="Your Name" class="w-full p-2 border rounded">
+                <input type="email" placeholder="Your Email" class="w-full p-2 border rounded">
+                <textarea placeholder="Your Message" class="w-full p-2 border rounded h-32"></textarea>
+                <button type="submit" class="w-full p-2 bg-red-600 text-white font-bold rounded">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-red-600 text-white p-4 text-center">
+        <p>&copy; 2023 Our Restaurant. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
